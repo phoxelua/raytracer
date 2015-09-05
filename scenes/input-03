@@ -1,0 +1,20 @@
+size 1500 1500
+camera 0 0 4000 0 0 0 0 1 0 40
+reflect 0.8 0.8 0.8
+
+pushTransform
+scale 3 1 1
+sphere 0 100 0 300
+popTransform
+
+sphere 400 -700 400 500
+
+
+
+directional  0 1 0 1 1 1
+directional  1 1 1 1 1 1
+directional  -1 -1 0 1 1 0
+
+environment beach/front.jpg beach/back.jpg beach/left.jpg beach/right.jpg beach/top.jpg beach/bottom.jpg
+
+antialiasing 3

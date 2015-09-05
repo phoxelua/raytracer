@@ -1,0 +1,11 @@
+Command
+=======
+as2.exe -i scenes\\input-06 -w scenes\\image-06.jpg
+
+Render Time
+===========
+61 seconds
+
+Features
+========
+- depth of field with aperture 110, 16 samples/pixel

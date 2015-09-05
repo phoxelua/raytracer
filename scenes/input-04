@@ -1,0 +1,57 @@
+size 640 640
+camera 0 0 4000 0 0 0 0 1 0 40
+
+
+ambient 1 0 0
+diffuse 1 0 0
+specular 1 0 0 
+reflect 1 1 1
+shininess 4
+
+sphere 0 0 0 600		
+
+ambient 0 .8 .2
+diffuse .5 .5 0
+specular .3 .3 0
+reflect 1 1 1
+shininess 10
+
+sphere -500 200 1000 400
+
+
+ambient 0 0 1
+reflect 1 1 1
+
+sphere 700 800 500 200
+
+
+ambient 0 1 1
+diffuse 0 .5 .5
+specular 1 1 1
+reflect 1 1 1
+shininess 10
+emission 0 1 1
+
+sphere 600 -500 500 200
+
+vertex -1000 -300 0
+vertex 0 -800 -2000
+vertex 1000 -300 0
+
+
+pushTransform
+
+ambient 0 0 1
+diffuse 0 1 .6
+specular 1 1 1  
+reflect 1 1 1
+shininess 16
+emission 0 0 1
+refract 0 0 0
+
+scale 4 4 10
+tri 0 1 2
+popTransform
+
+directional  0 1 0 1 1 1
+directional  1 1 1 1 1 1

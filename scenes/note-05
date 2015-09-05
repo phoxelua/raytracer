@@ -1,0 +1,13 @@
+Command
+=======
+as2.exe -i scenes\\input-05 -w scenes\\image-05.jpg
+
+Render Time
+===========
+181 seconds
+
+Features
+========
+- reflection
+- refraction
+- depth of field with aperture 50, 16 samples/pixel

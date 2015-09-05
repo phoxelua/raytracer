@@ -1,0 +1,13 @@
+Command
+=======
+as2.exe -i scenes\\input-04 -w scenes\\image-04.jpg
+
+Render Time
+===========
+11 seconds
+
+Features
+========
+- reflection
+- refraction
+

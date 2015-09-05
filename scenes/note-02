@@ -1,0 +1,14 @@
+Command
+=======
+as2.exe -i scenes\\input-02 -w scenes\\image-02.jpg
+
+Render Time
+===========
+22 seconds
+
+Features
+========
+- reflection
+- environment mapping
+- 3 by 3 antialiasing
+

@@ -1,0 +1,12 @@
+Command
+=======
+as2.exe -i scenes\\input-08 -w scenes\\image-08.jpg
+
+Render Time
+===========
+78 seconds
+
+Features
+========
+- refraction
+- 3 by 3 antialiasing

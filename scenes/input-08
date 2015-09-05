@@ -1,0 +1,51 @@
+size 640 640
+camera 0 0 4000 0 0 0 0 1 0 40
+
+
+ambient 1 0 0 
+diffuse 1 0 0
+
+sphere 100 300 -300 600
+
+ambient .8 .8 .8
+diffuse 0 0 0
+specular 0 0 0 
+refract 1 1 1
+indexRefract 2.54 
+
+sphere -100 0 800 400
+
+ambient .5 .5 .5
+diffuse 0 0 0
+specular 0 0 0 
+reflect 1 1 1
+refract 1 1 1
+indexRefract 1.7
+
+sphere 700 800 500 200
+
+
+
+vertex -1000 -300 0
+vertex 0 -800 -2000
+vertex 1000 -300 0
+
+pushTransform
+
+
+ambient 0 0 1
+diffuse 0 1 .6
+specular 1 1 1  
+reflect 1 1 1
+shininess 16
+emission 0 0 1
+refract 0 0 0
+
+scale 4 4 10
+tri 0 1 2
+popTransform
+
+directional  0 1 0 1 1 1
+directional  1 1 1 1 1 1
+
+antialiasing 3

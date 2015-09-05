@@ -1,0 +1,12 @@
+size 640 640
+camera 0 0 4000 0 0 0 0 1 0 40
+
+reflect 0.8 0.8 0.8
+
+sphere 0 -400 0 700
+
+directional  0 1 0 1 1 1
+directional  1 1 1 1 1 1
+directional  -1 -1 0 1 1 0
+
+environment basilica/front.jpg basilica/back.jpg basilica/left.jpg basilica/right.jpg basilica/top.jpg basilica/bottom.jpg

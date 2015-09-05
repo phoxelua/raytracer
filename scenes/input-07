@@ -1,0 +1,21 @@
+size 640 640
+camera 0 0 4000 0 0 0 0 1 0 40
+
+
+ambient 0 0 0
+specular 1 0 1 
+shininess 10
+reflect 0.8 0.8 0.8
+emission 0 0 0
+specular 0 0 0
+
+sphere 0 0 0 700
+
+directional  0 1 0 1 1 1
+directional  1 1 1 1 1 1
+directional  -1 -1 0 1 1 0
+
+
+environment escher/front.jpg escher/back.jpg escher/left.jpg escher/right.jpg escher/top.jpg escher/bottom.jpg
+
+antialiasing 2
